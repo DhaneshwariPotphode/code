@@ -1,0 +1,77 @@
+<html>
+<head>
+</head>
+<title>Registration form</title>
+<body background= "Image/regs.jpg">
+<form action="/action_page.html">
+<table border="1"  width="70%" align="center"
+cellspacing="10"  cellpadding="8">
+<h1><caption>Registration Form</caption></h1>
+<tr>
+<td><label for="textname">Name <label> </td>
+<td><input type="text" id="textname" /> </td>
+</tr>
+<tr>
+<td><label="textname">Father Name <label> </td>
+<td><input type="text" id="textname" /> </td>
+</tr>SS
+<tr>
+<td> Age </td>
+<td><input type="number" id="age" 
+min="18" max="30"/>
+</tr>
+<tr>
+<td><label for="Gender">Gender</label></td>
+<td><input type="radio" name="mal" id="Male" value="Male">
+<label for="Male">Male</label>
+<input type="radio" name="fem" id="Female" value="Female">
+<label for="Female">Female</label>
+<input type="radio" name="oth"  id="Other" value="Other"> 
+s<label for="Other">Other</label></td>
+</tr>
+
+<tr>
+<td>Contact Number</td>
+<td> <input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"
+  min="10"  max="10" /> </td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type = "text" name="email"  id="email" 
+/></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type = "password" name="pass"  id="pass" 
+ placeholder="Enter" /></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea name="textarea"  id="textarea" 
+rows="5" cols="20"> </textarea> </td>
+</tr>
+<tr>
+<td>Country</td>
+<td><select name="genv"  id="genv" required>
+<option>select any</option>
+<option value= "1">India </option>
+<option value= "2">America</option>
+<option value= "3">SaudiArab</option>
+<option value= "4">Australia </option>
+<option value= "5">Pakistan</option>
+ </td>
+</tr>
+<tr>
+<td>Choose file</td>
+<td><input type="file" name="file"  id="file" 
+/></td>
+<tr>
+<td><input type="submit" name="sub" id="sub" value="Submit"   
+<td><input type="reset" name="res" id="res" value="Reset"  
+ </td></tr>
+</table>
+</form>
+</body>
+</html>
